@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#transactionTable th, #transactionTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#transactionTable th {
+    background-color: #f2f2f2;
+}
+
+#transactionTable td input[type="number"] {
+    width: 50px;
+}
+
+#transactionItems {
+    margin-top: 10px;
+}
+
+#transactionItems .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#transactionItems .item .quantity {
+    width: 30px;
+}
+
+#transactionItems .item .subtotal {
+    width: 100px;
+    text-align: right;
+}
